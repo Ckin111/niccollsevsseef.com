@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niccolls Evsseef</title>
+</head>
+<body>
+    <div id="top">
+        <h1>Niccolls Evsseef</h1>
+        <div id="navbar"> 
+            <div>
+                <a href="#AboutMe">About Me</a>
+            </div>
+            <div>
+                <a href="#Projects">Projects</a>
+            </div>
+            <div>
+                <a href="#Resume">Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        
+        window.onscroll = function(){
+            var top = document.getElementById("top");
+            var navbar = document.getElementById("navbar");
+            var about = document.getElementById("AboutMe");
+            if(window.pageYOffset >= about.offsetTop){
+                top.classList.add("sticky");
+                navbar.classList.add("stickynav");
+            }
+            else{
+                top.classList.remove("sticky");
+                navbar.classList.remove("stickynav");
+            }
+        }
+    </script>
+
+    <div id="AboutMe">
+        <h3>About Me</h3>
+        <img src="img/pfp.jpeg" alt="picture of the great Niccolls Evsseef" class="face">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    </div>
+
+    <div id="Projects">
+        <h3>Projects</h3>
+        <div id="minesweeper">
+            <p id="minesweeperTitle"> Minesweeper</p>
+        </div>
+    </div>
+
+    <div id="Resume">
+        <h3>Resume</h3>
+        <img src="img/resume.png" alt="resume" class="res">
+    </div>
+    
+    
+</body>
+
+<div> <!-- empty div just for aesthetic reasons -->
+
+    <p> </p>
+</div>
+
+<footer>
+    <a href="https://github.com/Ckin111">Github</a>
+</footer>
+</html>
