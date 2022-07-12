@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+div {
+    border-radius: 25px;
+}
+
+body {
+    max-width: 90vw;
+    margin: auto;
+    background-color: #707070;
+
+}
+#top {
+    background-color: #505050;
+
+}
+
+
+#navbar {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
+}
+
+#AboutMe {
+    max-width: 800px;
+    margin: auto;
+
+}
+
+#minesweeper {
+    background-color: #886a4a;
+    max-width: 65vw;
+    margin: auto;
+}
+
+#minesweeperTitle {
+    text-align: center;
+    font-family: 'Trebuchet MS' ;
+    font-size: 20px;
+    color: #221907;
+    padding-top: 7px;
+}
+
+.face {
+    max-height: 600px;
+    max-width: 90vw;
+    margin: auto;
+    display: block;
+}
+
+.res {
+    max-height: 700px;
+    max-width: 90vw;
+    margin: auto;
+    display: block;
+}
+
+.sticky {
+    position: fixed;
+    min-width: 90vw;
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    top: 7px;
+    transition: 1s;
+}
+.sticky h1 {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.stickynav {
+    padding-bottom: 0px;
+    /* max-width: 900px; */
+
+}
+
+.stickynav a{
+    margin-left: 50px;
+
+    /* text-align: right; */
+
+}
+
+a {
+    color: blanchedalmond;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: rgba(190, 21, 21, 0.828);
+    -webkit-text-stroke: 1px black;
+    /* margin: auto; */
+    /* margin-top: 10px; */
+}
+h3 {
+    text-align: center;
+
+    font-size: 30px;
+    color: rgba(13, 54, 167, 0.828);
+    -webkit-text-stroke: 0.8px black;
+}
+footer {
+    max-width: 50vw;
+    margin: auto;
+    background-color: #505050;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer a {
+    font-size: 18px;
+
+}
